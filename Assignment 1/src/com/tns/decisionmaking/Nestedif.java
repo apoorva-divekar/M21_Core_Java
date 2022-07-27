@@ -5,7 +5,7 @@ public class Nestedif {
 	public static void main(String[] args)
 	{
    int age=15, weight=55;
-   if(weight>=12)
+   if(weight>=39)
    {
 	   if(weight>=40) 
 	   {
@@ -16,12 +16,12 @@ public class Nestedif {
    
 	   else
 	   {
-		   System.out.println("Eligible for bungee jumping");
+		   System.out.println("Extra ropes will be added ");
 	   }
    }
 	   else 
 	   {
-		   System.out.println("Extra ropes will be added");
+		   System.out.println("Not eligible for bungee jumping");
 	   }
 	}
 	   else
@@ -29,10 +29,5 @@ public class Nestedif {
 		   System.out.println("Not eligible for bungee jumping");
 	   }
     }
-	else
-	{
-		   System.out.println("Not eligible for bungee jumping");
 	
-	}
    }
-}
